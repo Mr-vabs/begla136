@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "section": "A",
+    "question": "Write a letter to the editor of a local newspaper highlighting the problem of water shortage in your area.",
+    "marks": 10
+  },
+  {
+    "id": 2,
+    "section": "A",
+    "question": "Draft an email to your manager requesting a week's leave for personal reasons.",
+    "marks": 10
+  },
+  {
+    "id": 3,
+    "section": "B",
+    "question": "Prepare a notice for a company bulletin board inviting employees to participate in the annual sports meet.",
+    "marks": 10
+  },
+  {
+    "id": 4,
+    "section": "B",
+    "question": "Write a resume for the post of a software developer at a reputed firm.",
+    "marks": 10
+  },
+  {
+    "id": 5,
+    "section": "C",
+    "question": "Write a paragraph on the importance of teamwork in the workplace.",
+    "marks": 10
+  },
+  {
+    "id": 6,
+    "section": "C",
+    "question": "Prepare minutes of a meeting held to discuss work from home policies.",
+    "marks": 10
+  },
+  {
+    "id": 7,
+    "section": "D",
+    "question": "Write an essay on 'The Role of Communication Skills in Career Advancement'.",
+    "marks": 10
+  },
+  {
+    "id": 8,
+    "section": "B",
+    "question": "You are the HR head. Draft a job advertisement for the position of content writer.",
+    "marks": 10
+  },
+  {
+    "id": 9,
+    "section": "C",
+    "question": "Write a report on the annual cultural program organized in your office.",
+    "marks": 10
+  },
+  {
+    "id": 10,
+    "section": "D",
+    "question": "Translate the following passage into Hindi: 'Time management is crucial for success in every field of life.'",
+    "marks": 10
+  }
+]
