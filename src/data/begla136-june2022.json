@@ -1,62 +1,186 @@
 [
   {
     "id": 1,
-    "section": "A",
+    "section": "A (June 2022)",
     "question": "Write a letter to the editor of a local newspaper highlighting the problem of water shortage in your area.",
     "marks": 10
   },
   {
     "id": 2,
-    "section": "A",
-    "question": "Draft an email to your manager requesting a week's leave for personal reasons.",
+    "section": "A (June 2022)",
+    "question": "Draft a notice informing students about a cleanliness drive in the college.",
     "marks": 10
   },
   {
     "id": 3,
-    "section": "B",
-    "question": "Prepare a notice for a company bulletin board inviting employees to participate in the annual sports meet.",
+    "section": "A (June 2022)",
+    "question": "Write a paragraph on the topic: 'The Importance of Spoken English at the Workplace'.",
     "marks": 10
   },
   {
     "id": 4,
-    "section": "B",
-    "question": "Write a resume for the post of a software developer at a reputed firm.",
+    "section": "A (June 2022)",
+    "question": "You are applying for the post of Customer Service Executive. Write a job application letter along with your CV.",
     "marks": 10
   },
   {
     "id": 5,
-    "section": "C",
-    "question": "Write a paragraph on the importance of teamwork in the workplace.",
+    "section": "A (June 2022)",
+    "question": "Write a conversation between two friends discussing career options after graduation.",
     "marks": 10
   },
+  
   {
     "id": 6,
-    "section": "C",
-    "question": "Prepare minutes of a meeting held to discuss work from home policies.",
+    "section": "B (December 2022)",
+    "question": "Write a letter to your landlord complaining about water leakage in the apartment.",
     "marks": 10
   },
   {
     "id": 7,
-    "section": "D",
-    "question": "Write an essay on 'The Role of Communication Skills in Career Advancement'.",
+    "section": "B (December 2022)",
+    "question": "Prepare a CV for the position of an IT Assistant.",
     "marks": 10
   },
   {
     "id": 8,
-    "section": "B",
-    "question": "You are the HR head. Draft a job advertisement for the position of content writer.",
+    "section": "B (December 2022)",
+    "question": "Write a paragraph on 'Social Media and Its Impact on the Youth'.",
     "marks": 10
   },
   {
     "id": 9,
-    "section": "C",
-    "question": "Write a report on the annual cultural program organized in your office.",
+    "section": "B (December 2022)",
+    "question": "Draft a notice for a blood donation camp to be organized at your college.",
     "marks": 10
   },
   {
     "id": 10,
-    "section": "D",
-    "question": "Translate the following passage into Hindi: 'Time management is crucial for success in every field of life.'",
+    "section": "B (December 2022)",
+    "question": "Write a conversation between a customer and a bank manager regarding the opening of a savings account.",
+    "marks": 10
+  },
+  {
+    "id": 11,
+    "section": "C (June 2023)",
+    "question": "Write a letter to the HR Manager requesting work from home due to medical reasons.",
+    "marks": 10
+  },
+  {
+    "id": 12,
+    "section": "C (June 2023)",
+    "question": "Write a paragraph on ‘Work-Life Balance’.",
+    "marks": 10
+  },
+  {
+    "id": 13,
+    "section": "C (June 2023)",
+    "question": "Prepare a notice about an upcoming workshop on Resume Writing.",
+    "marks": 10
+  },
+  {
+    "id": 14,
+    "section": "C (June 2023)",
+    "question": "Write a job application letter for the post of Sales Associate with your resume.",
+    "marks": 10
+  },
+  {
+    "id": 15,
+    "section": "C (June 2023)",
+    "question": "Write a dialogue between a receptionist and a visitor coming for an interview.",
+    "marks": 10
+  },
+
+  {
+    "id": 16,
+    "section": "D (December 2023)",
+    "question": "Write a letter to your manager requesting leave for a family function.",
+    "marks": 10
+  },
+  {
+    "id": 17,
+    "section": "D (December 2023)",
+    "question": "Write a paragraph on ‘Digital Communication at the Workplace’.",
+    "marks": 10
+  },
+  {
+    "id": 18,
+    "section": "D (December 2023)",
+    "question": "Draft a notice inviting volunteers for a tree plantation drive.",
+    "marks": 10
+  },
+  {
+    "id": 19,
+    "section": "D (December 2023)",
+    "question": "Write a job application for the post of Office Assistant with your resume.",
+    "marks": 10
+  },
+  {
+    "id": 20,
+    "section": "D (December 2023)",
+    "question": "Write a conversation between an employee and HR regarding a transfer request.",
+    "marks": 10
+  },
+
+  {
+    "id": 21,
+    "section": "E (June 2024)",
+    "question": "Write a letter to your college principal requesting permission to organize a cultural event.",
+    "marks": 10
+  },
+  {
+    "id": 22,
+    "section": "E (June 2024)",
+    "question": "Write a paragraph on ‘The Role of Email in Business Communication’.",
+    "marks": 10
+  },
+  {
+    "id": 23,
+    "section": "E (June 2024)",
+    "question": "Draft a notice informing employees about a fire safety drill.",
+    "marks": 10
+  },
+  {
+    "id": 24,
+    "section": "E (June 2024)",
+    "question": "Write an application for the post of Data Entry Operator with resume.",
+    "marks": 10
+  },
+  {
+    "id": 25,
+    "section": "E (June 2024)",
+    "question": "Write a conversation between a job seeker and a recruiter during a walk-in interview.",
+    "marks": 10
+  },
+
+  {
+    "id": 26,
+    "section": "F (December 2024)",
+    "question": "Write a letter to your electricity provider complaining about frequent power cuts.",
+    "marks": 10
+  },
+  {
+    "id": 27,
+    "section": "F (December 2024)",
+    "question": "Write a paragraph on ‘Time Management for Working Professionals’.",
+    "marks": 10
+  },
+  {
+    "id": 28,
+    "section": "F (December 2024)",
+    "question": "Draft a notice about a webinar on workplace ethics.",
+    "marks": 10
+  },
+  {
+    "id": 29,
+    "section": "F (December 2024)",
+    "question": "Write an application for the post of Telecaller with resume.",
+    "marks": 10
+  },
+  {
+    "id": 30,
+    "section": "F (December 2024)",
+    "question": "Write a conversation between two employees discussing their appraisal feedback.",
     "marks": 10
   }
 ]

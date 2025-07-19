@@ -1,30 +1,37 @@
-import React from "react";
-import questions from "../data/begla136-june2022.json";
+import { Question } from "@/types/question"
 
-interface Props {
-  answers: string[];
+type Props = {
+  questions: Question[]
+  answers: Record<number, string>
+  onSelect: (index: number) => void
 }
 
-const SummaryPage: React.FC<Props> = ({ answers }) => {
+export default function SummaryPage({ questions, answers, onSelect }: Props) {
+  const grouped = questions.reduce((acc, q, idx) => {
+    if (!acc[q.section]) acc[q.section] = []
+    acc[q.section].push({ ...q, index: idx })
+    return acc
+  }, {} as Record<string, (Question & { index: number })[]>)
+
   return (
-    <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-6">Summary of Your Answers</h1>
-      {questions.map((q, index) => (
-        <div key={q.id} className="mb-6 border-b pb-4">
-          <h2 className="text-lg font-semibold">Q{q.id}: {q.question}</h2>
-          {q.marks && (
-            <p className="text-sm text-gray-600">[Marks: {q.marks}]</p>
-          )}
-          <p className="mt-2 whitespace-pre-wrap text-gray-800">
-            {answers[index] || "[Not Answered]"}
-          </p>
-          <p className="text-sm text-gray-500 mt-1">
-            Word Count: {answers[index]?.trim().split(/\s+/).filter(Boolean).length || 0}
-          </p>
+    <div className="p-4 space-y-6">
+      <h2 className="text-xl font-bold">Summary</h2>
+      {Object.entries(grouped).map(([section, qs]) => (
+        <div key={section}>
+          <h3 className="text-lg font-semibold text-blue-700 mb-2">Section {section}</h3>
+          <ul className="space-y-1">
+            {qs.map(({ index, question }) => (
+              <li
+                key={index}
+                onClick={() => onSelect(index)}
+                className="cursor-pointer hover:underline"
+              >
+                Q{index + 1} – {answers[index]?.trim() ? "✅" : "⚠️"}
+              </li>
+            ))}
+          </ul>
         </div>
       ))}
     </div>
-  );
-};
-
-export default SummaryPage;
+  )
+}

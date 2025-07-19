@@ -151,9 +151,18 @@ const QuizPage: React.FC = () => {
               Q{questions[current].id}: {questions[current].question}
             </h2>
             {questions[current].marks && (
-              <p className="text-sm text-gray-500">
-                [Marks: {questions[current].marks}]
-                [Section: {questions[current].section}]
+              <p className="text-sm text-gray-500 mb-2">
+                [Marks: {questions[current].marks}] &nbsp; [Section:{" "}
+                {questions[current].section}]
+                {questions[current].comment && (
+                  <>
+                    {" "}
+                    —{" "}
+                    <span className="text-purple-600">
+                      {questions[current].comment}
+                    </span>
+                  </>
+                )}
               </p>
             )}
           </div>
