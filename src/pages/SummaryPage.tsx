@@ -1,4 +1,4 @@
-import { Question } from "@/types/question"
+import { Question } from "../types/question";
 
 type Props = {
   questions: Question[]
